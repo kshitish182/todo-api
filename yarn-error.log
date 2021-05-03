@@ -1,0 +1,46 @@
+Arguments: 
+  /home/kshitish182/.nvm/versions/node/v12.13.0/bin/node /home/kshitish182/.yarn/bin/yarn.js add -D typescript,nodemon
+
+PATH: 
+  /home/kshitish182/.yarn/bin:/home/kshitish182/.config/yarn/global/node_modules/.bin:/home/kshitish182/.nvm/versions/node/v12.13.0/bin:/home/kshitish182/.yarn/bin:/home/kshitish182/.config/yarn/global/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.13.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/typescript,nodemon: Not found
+      at Request.params.callback [as _callback] (/home/kshitish182/.yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/home/kshitish182/.yarn/lib/cli.js:140749:22)
+      at Request.emit (events.js:210:5)
+      at Request.<anonymous> (/home/kshitish182/.yarn/lib/cli.js:141721:10)
+      at Request.emit (events.js:210:5)
+      at IncomingMessage.<anonymous> (/home/kshitish182/.yarn/lib/cli.js:141643:12)
+      at Object.onceWrapper (events.js:299:28)
+      at IncomingMessage.emit (events.js:215:7)
+      at endReadableNT (_stream_readable.js:1183:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "todo-api",
+    "version": "1.0.0",
+    "description": "Backend service for a todo app",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "kshitish182 (kshitish182@gmail.com)",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
