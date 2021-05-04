@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
+    "transpile": "tsc -w",
+    "start": "yarn transpile & nodemon dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "kshitish182 (kshitish182@gmail.com)",
